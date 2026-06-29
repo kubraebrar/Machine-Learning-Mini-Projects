@@ -19,6 +19,11 @@ Welcome to my Machine Learning portfolio! This repository contains a collection 
 * **Goal:** Predict the highly irregular pricing of luxury real estate based on square meters.
 * **Algorithm:** Support Vector Regression (SVR) with RBF Kernel.
 * **Key Learning:** The critical importance of Feature Scaling (StandardScaler) for distance-based algorithms and managing outliers with epsilon-margins.
+  
+### 4. Bank Customer Purchase Predictor (K-Nearest Neighbors)
+* **Goal:** Predict whether a customer will purchase a targeted bank product based on their age and estimated salary to optimize marketing campaigns.
+* **Algorithm:** K-Nearest Neighbors (KNN) Classification.
+* **Key Learning:** The absolute necessity of Feature Scaling for distance-based algorithms, tuning the 'K' hyperparameter to balance the bias-variance tradeoff, and visualizing 2D decision boundaries to interpret model behavior.
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3
