@@ -25,6 +25,13 @@ Welcome to my Machine Learning portfolio! This repository contains a collection 
 * **Algorithm:** K-Nearest Neighbors (KNN) Classification.
 * **Key Learning:** The absolute necessity of Feature Scaling for distance-based algorithms, tuning the 'K' hyperparameter to balance the bias-variance tradeoff, and visualizing 2D decision boundaries to interpret model behavior.
 
+### 5. Breast Cancer Diagnosis System: Project Summary
+* **Project Objective and Nature of the Dataset:**
+The objective is to classify tumors as malignant or benign based on clinical features derived from cell nuclei (radius, area, smoothness, concavity, etc.). Health data is inherently complex; cancer cells do not always have distinct and standardized dimensions. Variables such as concavity, in particular, play a critical role in determining the nature of a tumor. However, these variables are so intertwined that they cannot be distinguished from one another using standard, linear logic (non-linearly separable).
+* **Algorithmic Approach: Why Kernel SVM?:** 
+Linear SVM: Attempts to classify data using a simple, linear rule (e.g., “if the area is greater than 1,000, it is cancer”). However, because cells overlap in the feature space, these rigid and linear rules are bound to misclassify critical patients on the borderline.
+Kernel SVM (RBF – Kernel Trick): It allows the model to examine complex data in a mathematically high-dimensional space without increasing computational cost. Thanks to the “Kernel Trick,” the model calculates local similarities between points and generates flexible decision rules tailored to the data’s structure. This enables high learning capacity in complex medical data without consuming hardware resources.
+
 ## 🛠️ Tech Stack
 * **Language:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Scikit-Learn, Statsmodels
