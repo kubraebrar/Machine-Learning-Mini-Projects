@@ -32,6 +32,11 @@ The objective is to classify tumors as malignant or benign based on clinical fea
 Linear SVM: Attempts to classify data using a simple, linear rule (e.g., “if the area is greater than 1,000, it is cancer”). However, because cells overlap in the feature space, these rigid and linear rules are bound to misclassify critical patients on the borderline.
 Kernel SVM (RBF – Kernel Trick): It allows the model to examine complex data in a mathematically high-dimensional space without increasing computational cost. Thanks to the “Kernel Trick,” the model calculates local similarities between points and generates flexible decision rules tailored to the data’s structure. This enables high learning capacity in complex medical data without consuming hardware resources.
 
+### 5. Email Spam Detection System (Naive Bayes)
+* **Goal:** Classify incoming emails as 'spam' or 'normal' (ham) using Natural Language Processing (NLP) techniques to improve inbox filtering.
+* **Algorithm:** Multinomial Naive Bayes with CountVectorizer.
+* **Key Learning:** Transforming raw text data into numerical frequency matrices (Bag of Words), understanding why MultinomialNB is highly efficient for discrete count data, and the business critical importance of minimizing False Positives (Type 1 Errors) in spam detection.
+
 ## 🛠️ Tech Stack
 * **Language:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Scikit-Learn, Statsmodels
