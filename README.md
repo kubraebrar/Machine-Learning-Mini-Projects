@@ -37,6 +37,11 @@ Kernel SVM (RBF – Kernel Trick): It allows the model to examine complex data i
 * **Algorithm:** Multinomial Naive Bayes with CountVectorizer.
 * **Key Learning:** Transforming raw text data into numerical frequency matrices (Bag of Words), understanding why MultinomialNB is highly efficient for discrete count data, and the business critical importance of minimizing False Positives (Type 1 Errors) in spam detection.
 
+### 6. Employee Attrition Predictor (Decision Tree/ Random Forest)
+* **Goal:** Predict employee turnover (attrition) risk using historical HR metrics to help management proactively improve retention strategies.
+* **Algorithm:** Random Forest Classifier.
+* **Key Learning:** Handling highly imbalanced real-world datasets (IBM HR Analytics) using class weights, overcoming the high variance (fragility) of single Decision Trees through ensemble learning (Wisdom of the Crowd), and extracting business-critical insights using Feature Importance.
+
 ## 🛠️ Tech Stack
 * **Language:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Scikit-Learn, Statsmodels
