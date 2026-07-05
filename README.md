@@ -42,6 +42,12 @@ Kernel SVM (RBF – Kernel Trick): It allows the model to examine complex data i
 * **Algorithm:** Random Forest Classifier.
 * **Key Learning:** Handling highly imbalanced real-world datasets (IBM HR Analytics) using class weights, overcoming the high variance (fragility) of single Decision Trees through ensemble learning (Wisdom of the Crowd), and extracting business-critical insights using Feature Importance.
 
+### 7. Medical Test Evaluation System (Linear & Ensemble Models)
+
+* **Goal:** Predict malignant breast cancer tumors with ultimate reliability, strictly prioritizing the elimination of life-threatening False Negatives (missed diagnoses).
+* **Algorithm:** Logistic Regression, Support Vector Machine (SVM), and Random Forest Classifier.
+* **Key Learning:** Overcoming the "Accuracy Paradox" in imbalanced medical datasets using `class_weight='balanced'`. Moving beyond basic accuracy by evaluating true discriminative power via **ROC Curves and AUC Scores**, and manipulating decision boundaries (Threshold Tuning) to achieve maximum Recall and ensure no patient is misdiagnosed as healthy.
+
 ## 🛠️ Tech Stack
 * **Language:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Scikit-Learn, Statsmodels
