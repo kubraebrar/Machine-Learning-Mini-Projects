@@ -48,6 +48,12 @@ Kernel SVM (RBF – Kernel Trick): It allows the model to examine complex data i
 * **Algorithm:** Logistic Regression, Support Vector Machine (SVM), and Random Forest Classifier.
 * **Key Learning:** Overcoming the "Accuracy Paradox" in imbalanced medical datasets using `class_weight='balanced'`. Moving beyond basic accuracy by evaluating true discriminative power via **ROC Curves and AUC Scores**, and manipulating decision boundaries (Threshold Tuning) to achieve maximum Recall and ensure no patient is misdiagnosed as healthy.
 
+### 8. Algorithmic Classification Benchmark (Iris Dataset)
+
+* **Goal:** Establish a robust classification pipeline to benchmark the performance, computational cost, and interpretability of fundamental ML algorithms.
+* **Algorithm:** Evaluated 7 models including Logistic Regression, KNN, SVM (Linear/RBF), Naive Bayes, Decision Tree, and Random Forest.
+* **Key Learning:** Applying Occam's Razor in Machine Learning. Proving that for small, largely linearly separable datasets, simple and highly interpretable models like Logistic Regression outperform complex, resource-heavy ensemble models without suffering from overfitting.
+
 ## 🛠️ Tech Stack
 * **Language:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Scikit-Learn, Statsmodels
