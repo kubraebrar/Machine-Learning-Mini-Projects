@@ -1,0 +1,19 @@
+# 🌸 Iris Classification Benchmark System
+
+## 📌 Project Overview
+Bu proje, makine öğrenmesindeki en popüler sınıflandırma algoritmalarını (Logistic Regression, KNN, SVM, Naive Bayes, Tree-based Models) efsanevi Iris veri seti üzerinde yapılandırılmış bir boru hattı (pipeline) ile karşılaştırmaktadır. Odak noktamız sadece doğruluğu bulmak değil; hesaplama maliyeti, aşırı öğrenme (overfitting) riski ve model açıklanabilirliği arasındaki o hassas dengeyi kurmaktır.
+
+## 🚀 Benchmark Sonuçları
+
+| Model | Accuracy | ROC/AUC | Computational Cost | Interpretability |
+| :--- | :--- | :--- | :--- | :--- |
+| **Logistic Regression** | % 100.0 | 1.000 | Çok Düşük | Çok Yüksek |
+| **Naive Bayes** | % 100.0 | 1.000 | Çok Düşük | Yüksek |
+| **Random Forest** | % 100.0 | 1.000 | Yüksek | Düşük (Black-box) |
+| **Linear SVM** | % 96.6 | 0.998 | Düşük | Orta |
+
+> *Not: Sonuçlar `test_size=0.2` ve `StandardScaler` uygulandıktan sonra elde edilmiştir.*
+
+## 🎯 Technical Conclusion (Neden Lojistik Regresyon?)
+Çoğu model %100 doğruluğa ulaşmış olsa da, bu projenin asıl kazananı **Lojistik Regresyon'dur**. Sadece 150 örnekten oluşan ve doğrusal olarak büyük oranda ayrılabilir (linearly separable) olan bu veri setinde Random Forest veya RBF Kernel gibi ağır yapılı modeller kullanmak, donanım israfıdır (Occam's Razor prensibi). Lojistik Regresyon; botanik araştırmacılarına tahminin arkasındaki olasılıkları ve katsayıları şeffaf bir şekilde (interpretability) sunarak en hafif, en hızlı ve en güvenilir endüstriyel çözümü sağlamıştır.
+
